@@ -18,6 +18,6 @@ public class PostQueryTest {
                 .post("/post")
                 .then()
                 .statusCode(200)
-                .body("data", equalTo("that data"));
+                .body("data", equalTo("some data"));
     }
 }
